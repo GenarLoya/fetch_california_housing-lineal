@@ -41,4 +41,9 @@ sorted_results = sorted(results, key=lambda x: x["score"], reverse=True)
 for result in sorted_results:
     print("Variables:", result["variables"], "| Score:", result["score"])
 
-print("Highest Score is: ", sorted_results[0].Score, "")
+print(
+    "Highest Score is: ",
+    sorted_results[0].Score,
+    "with cols: ",
+    sorted_results[0].Score,
+)
